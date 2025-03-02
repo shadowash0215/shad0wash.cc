@@ -23,7 +23,7 @@ body.locked, .content-container, .self-wrapper, .article-title {
     overflow: hidden;
 }
 
-.link-item, .switcher-btn, .self-wrapper, .btn-icon .fa, .btn-text, .btn-select-indicator, .article-loading, .article-content, .article-title {
+.link-item, .switcher-btn, .self-wrapper, .btn-icon iconify-icon, .btn-text, .btn-select-indicator, .article-loading, .article-content, .article-title {
     transition: .2s;
 }
 
@@ -62,7 +62,7 @@ body.locked, .content-container, .self-wrapper, .article-title {
     justify-content: center;
 }
 
-.article-content.empty .fa {
+.article-content.empty iconify-icon {
     font-size: 3em;
 }
 
@@ -115,7 +115,7 @@ body.locked, .content-container, .self-wrapper, .article-title {
     margin-top: 8px;
 }
 
-.btn-icon .fa {
+.btn-icon iconify-icon {
     font-size: 2em;
 }
 
@@ -166,7 +166,7 @@ body.locked, .content-container, .self-wrapper, .article-title {
     transform: translateX(200%);
 }
 
-.content-container[data-selection="1"] #switcher-btn-1 .btn-icon .fa, .content-container[data-selection="2"] #switcher-btn-2 .btn-icon .fa, .content-container[data-selection="3"] #switcher-btn-3 .btn-icon .fa {
+.content-container[data-selection="1"] #switcher-btn-1 .btn-icon iconify-icon, .content-container[data-selection="2"] #switcher-btn-2 .btn-icon iconify-icon, .content-container[data-selection="3"] #switcher-btn-3 .btn-icon iconify-icon {
     font-size: 2.5rem;
     transform: translateY(.1em);
 }
@@ -241,7 +241,7 @@ body.locked, .content-container, .self-wrapper, .article-title {
     box-sizing: border-box;
 }
 
-.link-icon .fa {
+.link-icon iconify-icon {
     font-size: 2.5em;
 }
 
@@ -349,7 +349,7 @@ body.locked, .content-container, .self-wrapper, .article-title {
     background: rgba(255, 255, 255, .2);
 }
 
-.switcher-btn.selected .btn-icon .fa {
+.switcher-btn.selected .btn-icon iconify-icon {
     font-size: 2.5em;
     transform: translateY(.1em);
 }
